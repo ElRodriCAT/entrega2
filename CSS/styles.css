@@ -1,5 +1,7 @@
 body {
     font-family: Arial, sans-serif;
+    background: url('../img/background-img.jpg')repeat fixed;
+    background-size: cover;
 }
 
 h1 {
@@ -7,7 +9,9 @@ h1 {
 }
 
 .navbar {
-    border-bottom: 2px solid #007bff;
+
+   background: url('../img/background-img.jpg')repeat fixed;
+    background-size: cover;
 }
 
 .nav-link:hover {
@@ -16,4 +20,9 @@ h1 {
 
 footer {
     margin-top: 20px;
+}
+.card {
+    background-color: #66c7bf;
+    border: 2px solid #4b3737; 
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
 }
