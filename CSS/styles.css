@@ -1,5 +1,5 @@
 body {
-    color:#f3f3f3;
+    color:#1a1515;
     font-family: Arial, sans-serif;
     background: url('../img/background-img.jpg')repeat fixed;
     background-size: cover;
@@ -12,7 +12,10 @@ h1 {
 .navbar {
     background: url('../img/background-img.jpg')repeat fixed;
     background-size: cover;
-}
+    position: fixed;
+    top: 0; 
+    width: 100%; 
+    z-index: 1000; 
 
 .nav-link:hover {
     color: #007bff !important;
@@ -53,4 +56,13 @@ footer {
 .whatsapp-btn:hover {
     transform: scale(1.1);
     background-color: #1ebe5d;
+}
+.navbar-nav .nav-link {
+    color: rgb(20, 17, 17) !important;
+    font-weight: bold; 
+    padding: 10px 15px;
+    transition: color 0.3s ease-in-out;
+}
+.navbar-nav .nav-link:hover {
+    color: #ffcc00 !important;
 }
