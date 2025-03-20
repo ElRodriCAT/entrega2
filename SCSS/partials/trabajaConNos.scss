@@ -1,0 +1,30 @@
+// _trabajaConNosotros.scss
+@use 'variables' as *;
+@use 'mixins' as *;
+
+.contenido {
+  max-width: 800px;
+  margin: 40px auto;
+  text-align: center;
+  color: $text-color;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 400px;
+  margin: auto;
+
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .boton {
+    @include flex-center;
+    @include button-style($primary-color);
+  }
+}

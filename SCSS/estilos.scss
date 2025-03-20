@@ -1,0 +1,11 @@
+// Importar Bootstrap primero
+@use "../node_modules/bootstrap/scss/bootstrap";
+
+// Importar archivos SCSS personalizados
+@use "partials/variables";
+@use "partials/mixins";
+@use "partials/botones";
+@use "partials/header";
+@use "partials/footer";
+@use "partials/global";
+@use "partials/trabajaConNosotros"; // Nueva vista
