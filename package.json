@@ -2,20 +2,20 @@
   "name": "entrega-2",
   "version": "1.0.0",
   "description": "",
-  "keywords": [],
-  "homepage": "https://github.com/ElRodriCAT/entrega2#readme",
-  "bugs": {
-    "url": "https://github.com/ElRodriCAT/entrega2/issues"
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ElRodriCAT/entrega2.git"
   },
+  "keywords": [],
+  "author": "",
   "license": "ISC",
-  "author": "Rodrigo",
   "type": "commonjs",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  }
+  "bugs": {
+    "url": "https://github.com/ElRodriCAT/entrega2/issues"
+  },
+  "homepage": "https://github.com/ElRodriCAT/entrega2#readme"
 }
