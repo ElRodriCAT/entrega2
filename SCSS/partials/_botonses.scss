@@ -1,7 +1,0 @@
-// _botones.scss
-@use 'variables' as *;
-@use 'mixins' as *;
-
-.boton {
-  @include button-style($primary-color);
-}
