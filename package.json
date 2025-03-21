@@ -8,7 +8,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ElRodriCAT/entrega2.git"
+    "url": "git+https://github.com/ElRodriCAT/entrega2.git",
+    "local": "http-server ."
   },
   "keywords": [],
   "author": "",
@@ -17,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/ElRodriCAT/entrega2/issues"
   },
-  "homepage": "https://github.com/ElRodriCAT/entrega2#readme"
+  "homepage": "https://github.com/ElRodriCAT/entrega2#readme",
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "live-server": "^1.2.0"
+  }
 }
