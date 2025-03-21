@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "local": "live-server"
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,8 @@
   "devDependencies": {
     "http-server": "^14.1.1",
     "live-server": "^1.2.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.3"
   }
 }
