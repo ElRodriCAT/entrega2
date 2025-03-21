@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["../SCSS/partials/_variables.scss"],"names":[],"mappings":"AAAA","file":"trabajaConNos.css"}
+{"version":3,"sourceRoot":"","sources":["../SCSS/partials/_variables.scss","../SCSS/trabajaConNos.scss"],"names":[],"mappings":"AAAA;ACSA;EACI;;;AAGJ;EACI;EACA;EACA;EACA;;;AAGJ;EACI;EACA;EACA;EACA;;;AAGJ;EACI;EACA;EACA;EACA;EACA;EACA;;;AAGJ;EACI;EACA;EACA;EACA;;;AAEJ;EACI","file":"trabajaConNos.css"}
